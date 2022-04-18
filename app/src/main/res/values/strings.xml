@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">fillCupProb2</string>
+    <string name="win">You Win!</string>
+</resources>

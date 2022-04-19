@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">fillCupProb2</string>
     <string name="win">You Win!</string>
+    <string name="pick">Pick a puzzle to play</string>
+    <string name="threeFivePuz">three and five cup buckets</string>
+    <string name="instructions">try to get two cups of water</string>
+    <string name="empty">empty</string>
+    <string name="fill">fill</string>
+    <string name="back">Back</string>
+
 </resources>

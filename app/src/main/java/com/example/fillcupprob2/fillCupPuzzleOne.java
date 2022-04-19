@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 
     // TODO: make an object where you pass in an array of buckit values and it make the buckets.
-public class MainActivity extends PuzzleActivity {
+public class fillCupPuzzleOne extends PuzzleActivity {
 
     TextView textView;
 

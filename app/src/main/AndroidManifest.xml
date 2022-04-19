@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FillCupProb2">
         <activity
+            android:name=".fillCupPuzzleOne"
+            android:exported="false" />
+        <activity
             android:name=".win"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".fillCupPuzzles"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

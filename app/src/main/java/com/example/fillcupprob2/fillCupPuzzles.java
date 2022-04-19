@@ -7,22 +7,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class win extends AppCompatActivity {
+public class fillCupPuzzles extends AppCompatActivity {
 
-    Button back;
+    Button firstPuzzle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_win);
-        back = findViewById(R.id.backBut);
+        setContentView(R.layout.activity_fill_cup_puzzles);
 
-        back.setOnClickListener(new View.OnClickListener() {
+        firstPuzzle = findViewById(R.id.fillCupOneBut);
+
+        firstPuzzle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), fillCupPuzzles.class);
-                startActivity(intent);
+                Intent firstIntent = new Intent(getApplicationContext(), fillCupPuzzleOne.class);
+                startActivity(firstIntent);
             }
         });
+
     }
 }
